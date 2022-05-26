@@ -1,0 +1,105 @@
+Facial Recognition Attendance System Using Python and OpenCv:
+
+This is a project about Facial Recognition-Based Attendance System for Educational Institutions,Employee Offices or for any working jobs.
+The main purpose of this project is to build a face recognition-based attendance monitoring system for  to enhance and upgrade the current attendance system 
+into more efficient and effective.
+The technology working behind will be the face recognition system. 
+The human face is one of the natural traits that can uniquely identify an individual. 
+Therefore, it is used to trace identity as the possibilities for a face to deviate or being duplicated is low.
+In this project, face databases will be created to pump data into the recognizer algorithm.
+Then, during the attendance taking session, faces will be compared against the database to seek for identity.
+When an individual is identified, it's attendance will be taken down automatically saving necessary information into a excel sheet. 
+
+Research Objectives:
+
+The proposed system will reduce the paperwork where attendance will no longer involve any manual recording. 
+The system will also reduce the total time needed to do attendance recording.
+The system will acquire individual attendance by means of facial recognition to secure data accuracy of the attendance.
+
+The following are objectives of the project:
+
+To develop a portable Smart Attendance System which is handy and self-powered.
+To ensure the speed of the attendance recording process is faster than the previous system which can go as fast as approximately 3 second for each candidate.
+Have enough memory space to store the database.
+Able to recognize the face of an individual accurately based on the face database.
+Allow management to track their candidate's attendance.
+Develop a database for the attendance management system.
+Provide a user-friendly interface for admins to access the attendance database.
+
+
+Project Scope:
+
+The main intention of this project is to solve the issues encountered in the old attendance system while reproducing a brand new innovative
+smart system that can provide convenience to the institution.
+In this project, an application will be developed which is capable of recognising the identity of each individuals and eventually record 
+down the data into a database system.
+Apart from that, an excel sheet is created which shows the candidate's attendance.
+
+
+The followings are the project scopes:
+
+The targeted groups of the attendance monitoring system are the candidate's and staff of an that .
+The facial recognition process can only be done for 1 person at a time.
+An excel sheet is created which contains the student attendance.
+The project has to work under a Wi-Fi coverage area or under Ethernet connection, as the system need to 
+update the database of the attendance system constantly.
+The device on which the application is running is powered up by power bank to improve the portability of the 
+application.
+
+System Design:
+
+The design part of the attendance monitoring system is divided into two sections which consist of the hardware and the software part.
+Before the software The design part can be developed, the hardware part is first completed to provide a platform for the software to work. 
+Before the software part we need to install some libraries for effective working of the application. 
+We install OpenCV ,OpenCV-contrib ,face recognition,Numpy and many more through Python.
+
+Libraries Development:
+
+OpenCV -
+OpenCV (Open source computer vision) is a library of programming functions mainly aimed at real-time computer vision. 
+OpenCV's application areas include:2D and 3D feature toolkits, Egomotion estimation, Facial recognition system ,Gesture recognition,
+Human–computer interaction (HCI),Mobile robotics ,Motion understanding, Object identification, Segmentation and recognition,
+Stereopsis stereo vision: depth perception from 2 cameras, Structure from motion (SFM), Motion tracking, Augmented reality.
+
+Programming Language: 
+Python
+
+NumPy:
+NumPy is a package that defines a multi-dimensional array object and associated fast math functions that operate on it. 
+It also provides simple routines for linear algebra and fft and sophisticated random-number generation. 
+NumPy replaces both Numeric and Numarray.
+
+Two major system flows in the software development : 
+The creation of the face database, The process of attendance taking.
+Both processes mentioned above are essential because they made up the backbone of the attendance management system. 
+
+Before the attendance management system can work, there are a set of data needed to be inputted into 
+the system which essentially consist of the individual's basic information like their faces. 
+The first procedure of portrait acquisition can be done by using the Camera to capture the faces of the individual. 
+
+OVERVIEW
+
+The proposed system is a software system which willmark attendance using facial recognition. 
+In this project we used OpenCV module integrated with Python which will helps to make the attendance process easy and efficient.
+The system comprises of Computer, HD Video Camera and Wi-Fi module or Internet.
+
+Steps of Working: 
+
+Initiate the Attendance.py python script.
+Create a folder of the candidate containing images.
+Attendance is taken by capturing the faces of the candidate and comparing it with the faces in given folder with their names.
+If a face is matched, the responding name with PRESENT status is marked in a EXCEL file with the current date and time.
+
+CONCLUSION:
+
+Before the development of this technology. There were many loopholes in the process of taking attendance 
+using the old method which caused many troubles to most of the institutions. 
+Therefore, the facial recognition feature embedded in the attendance monitoring system can not only ensure attendance to be taken accurately 
+and also eliminated the flaws in the previous system.
+By using technology to conquer the defects cannot merely save resources but also reduces human intervention in the whole process 
+by handling all the complicated task to the machine.
+The only cost to this solution is to have sufficient space in to store all the faces into the database storage. 
+
+
+
+
